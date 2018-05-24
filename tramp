@@ -1,0 +1,49 @@
+;; -*- emacs-lisp -*- <18/04/27 09:26:53 /home/dongpingw/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+((["ssh" nil "szx-srv-fpgades5.advaoptical.com" nil nil]
+  ("uname" "Linux 2.6.18-238.el5")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("~" "/home/dongpingw")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl"))
+ (["ssh" nil "szx-srv-fpgades4.advaoptical.com" nil nil]
+  ("uname" "Linux 2.6.18-238.el5")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("~" "/home/dongpingw"))
+ (["ssh" nil "szx-srv-fpgades3.advaoptical.com" nil nil]
+  ("uname" "Linux 2.6.18-238.el5")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("~" "/home/dongpingw"))
+ (["ssh" nil "szx-srv-fpgades2.advaoptical.com" nil nil]
+  ("uname" "Linux 2.6.18-238.el5")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("~" "/home/dongpingw"))
+ (["ssh" nil "szx-srv-fpgades1.advaoptical.com" nil nil]
+  ("uname" "Linux 2.6.18-406.el5")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("~" "/home/dongpingw"))
+ (["sudo" "root" "localhost" nil nil]
+  nil))

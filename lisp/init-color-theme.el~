@@ -1,0 +1,36 @@
+(require 'color-theme)
+
+(eval-after-load "color-theme"
+  '(progn
+     (color-theme-initialize)
+                                        ;  (color-theme-hober)
+                                        ;  (color-theme-initialize)
+                                        ;  (color-theme-tty-dark)
+                                        ;  (color-theme-comidia)
+                                        ;  (color-theme-dark-laptop)
+     (color-theme-gnome2)
+                                        ;  (color-theme-classic)
+     ))
+
+
+;; (require 'color-theme-molokai)
+
+;; ; {{ work around color theme bug
+;; ; @see https://plus.google.com/106672400078851000780/posts/KhTgscKE8PM
+;; defadvice load-theme (before disable-themes-first activate)
+;;  ;; diable all themes
+;;  (dolist (i custom-enabled-themes)
+;;    (disable-theme i)))
+;; ; }}
+;; 
+;; color-theme-molokai)
+;; ; This line must be after color-theme-molokai! Don't know why.
+;; setq color-theme-illegal-faces "^\\(w3-\\|dropdown-\\|info-\\|linum\\|yas-\\|font-lock\\)")
+;; ; (color-theme-select 'color-theme-xp)
+;; ; (color-theme-xp)
+
+(set-face-attribute 'org-level-1 nil :height 1.6 :bold t)
+(set-face-attribute 'org-level-2 nil :height 1.4 :bold t)
+(set-face-attribute 'org-level-3 nil :height 1.2 :bold t)
+
+(provide 'init-color-theme)
